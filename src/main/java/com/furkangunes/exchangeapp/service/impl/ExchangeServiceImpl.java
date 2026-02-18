@@ -37,7 +37,7 @@ public class ExchangeServiceImpl implements ExchangeService {
                 .to(to.toUpperCase())
                 .amount(amount)
                 .rate(rate)
-                .result(Math.round(result * 100.0) / 100)
+                .result(Math.round(result * 100.0) / 100.0)
                 .build();
     }
 
